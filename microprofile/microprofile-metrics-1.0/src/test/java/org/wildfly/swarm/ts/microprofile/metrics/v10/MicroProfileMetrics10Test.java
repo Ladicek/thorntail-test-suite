@@ -99,6 +99,7 @@ public class MicroProfileMetrics10Test {
     @Test
     @RunAsClient
     @InSequence(5)
+    @Ignore("https://github.com/smallrye/smallrye-metrics/issues/40")
     public void prometheusData() throws IOException {
         String response = Request.Get("http://localhost:8080/metrics").execute().returnContent().asString();
         assertThat(response).contains("application:hello_count 11.0");
