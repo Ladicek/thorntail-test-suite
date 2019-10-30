@@ -96,6 +96,7 @@
         <module>microprofile/microprofile-rest-client-1.3</module>
         <module>microprofile/opentracing-fault-tolerance</module>
         <module>microprofile/opentracing-restclient</module>
+        <module>microprofile/restclient-fault-tolerance</module>
 
         <module>netflix/archaius</module>
         <module>netflix/hystrix</module>
